@@ -27,3 +27,5 @@ repo_vars:
   - CI_DOCKERENV = 'TZ=US/Pacific'
   - CI_AUTH = 'user:password'
   - CI_WEBPATH = ''
+sponsor_links:
+  - { name: "QDirStat", url: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EYJXAVLGNRR5W" }
