@@ -2,11 +2,14 @@
 
 # jenkins variables
 project_name: docker-qdirstat
-external_type: os
+external_type: github_stable
 release_type: stable
 release_tag: latest
 ls_branch: master
 repo_vars:
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_USER = 'shundhammer'
+  - EXT_REPO = 'qdirstat'
   - BUILD_VERSION_ARG = 'QDIRSTAT_VERSION'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-qdirstat'
