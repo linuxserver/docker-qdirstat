@@ -3,7 +3,7 @@ adwaita-icon-theme3.36.1-2ubuntu0.20.04.2
 apt2.0.6
 apt-transport-https2.0.6
 apt-utils2.0.6
-base-files11ubuntu5.4
+base-files11ubuntu5.5
 base-passwd3.5.47
 bash5.0-6ubuntu1.1
 bsdmainutils11.1.2ubuntu3
@@ -99,7 +99,7 @@ libcairo-gobject21.16.0-4ubuntu1
 libcap21:2.32-1
 libcap2-bin1:2.32-1
 libcap-ng00.7.9-2.1build1
-libc-bin2.31-0ubuntu9.2
+libc-bin2.31-0ubuntu9.7
 libcbor0.60.6.0-0ubuntu1
 libcolord21.4.4-2
 libcom-err21.45.5-2ubuntu1
@@ -132,7 +132,7 @@ libexif120.6.21-6ubuntu0.4
 libexo-2-00.12.11-1ubuntu1.20.04.1
 libexo-common0.12.11-1ubuntu1.20.04.1
 libexo-helpers0.12.11-1ubuntu1.20.04.1
-libexpat12.2.9-1ubuntu0.2
+libexpat12.2.9-1ubuntu0.4
 libext2fs21.45.5-2ubuntu1
 libfdisk12.34-0.1ubuntu9.3
 libffi73.3-4
@@ -297,7 +297,7 @@ libspeexdsp11.2~rc1.2-1.1ubuntu1.20.04.1
 libsqlite3-03.31.1-4ubuntu0.2
 libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.2
-libssl1.11.1.1f-1ubuntu2.10
+libssl1.11.1.1f-1ubuntu2.11
 libstartup-notification00.12-6
 libstdc++610.3.0-1ubuntu1~20.04
 libstemmer0d0+svn585-2
@@ -393,7 +393,7 @@ libxxf86dga12:1.1.5-0ubuntu1
 libxxf86vm11:1.1.4-1build1
 libyaml-0-20.2.2-1
 libzstd11.4.4+dfsg-3ubuntu0.1
-locales2.31-0ubuntu9.2
+locales2.31-0ubuntu9.7
 login1:4.8.1-1ubuntu5.20.04.1
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
@@ -409,7 +409,7 @@ nodejs14.19.0-deb-1nodesource1
 obconf1:2.0.4+git20150213-2
 openbox3.6.1-9ubuntu0.20.04.1
 openssh-client1:8.2p1-4ubuntu0.4
-openssl1.1.1f-1ubuntu2.10
+openssl1.1.1f-1ubuntu2.11
 packagekit1.1.13-2ubuntu1.1
 passwd1:4.8.1-1ubuntu5.20.04.1
 patch2.7.6-6
@@ -455,7 +455,7 @@ systemd245.4-4ubuntu3.15
 systemd-sysv245.4-4ubuntu3.15
 systemd-timesyncd245.4-4ubuntu3.15
 sysvinit-utils2.96-2.1ubuntu1
-tar1.30+dfsg-7ubuntu0.20.04.1
+tar1.30+dfsg-7ubuntu0.20.04.2
 thunar1.8.14-0ubuntu1
 thunar-data1.8.14-0ubuntu1
 tzdata2021e-0ubuntu0.20.04
