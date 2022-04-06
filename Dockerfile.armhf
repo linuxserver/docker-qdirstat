@@ -22,6 +22,7 @@ RUN \
     make \
     tar \
     thunar \
+    xfce4-terminal \
     zlib1g && \
   echo "**** compile qdirstat ****" && \
   mkdir -p /tmp/qdirstat && \

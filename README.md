@@ -230,5 +230,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **06.04.22:** - Add xfce terminal.
 * **13.01.22:** - Compile from source.
 * **11.01.22:** - Initial release.
