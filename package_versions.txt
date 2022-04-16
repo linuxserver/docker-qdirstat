@@ -39,8 +39,8 @@ gcc-10-base10.3.0-1ubuntu1~20.04
 gcc-9-base9.4.0-1ubuntu1~20.04.1
 gir1.2-glib-2.01.64.1-1~ubuntu20.04.1
 gir1.2-packagekitglib-1.01.1.13-2ubuntu1.1
-git1:2.25.1-1ubuntu3.2
-git-man1:2.25.1-1ubuntu3.2
+git1:2.25.1-1ubuntu3.3
+git-man1:2.25.1-1ubuntu3.3
 glib-networking2.64.2-1ubuntu0.1
 glib-networking-common2.64.2-1ubuntu0.1
 glib-networking-services2.64.2-1ubuntu0.1
@@ -143,7 +143,7 @@ libfontenc11:1.1.4-0ubuntu1
 libfreerdp2-22.2.0+dfsg1-0ubuntu0.20.04.2
 libfreerdp-client2-22.2.0+dfsg1-0ubuntu0.20.04.2
 libfreetype62.10.1-2ubuntu0.1
-libfribidi01.0.8-2
+libfribidi01.0.8-2ubuntu0.1
 libfuse22.9.9-3
 libgbm121.2.6-0ubuntu0.1~20.04.2
 libgcc-s110.3.0-1ubuntu1~20.04
@@ -493,5 +493,5 @@ xserver-xorg-video-radeon1:19.1.0-1
 xterm353-1ubuntu1.20.04.2
 xtrans-dev1.4.0-1
 xutils1:7.7+19ubuntu14
-xz-utils5.2.4-1ubuntu1
+xz-utils5.2.4-1ubuntu1.1
 zlib1g1:1.2.11.dfsg-2ubuntu1.3
