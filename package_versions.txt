@@ -39,8 +39,8 @@ gcc-10-base10.3.0-1ubuntu1~20.04
 gcc-9-base9.4.0-1ubuntu1~20.04.1
 gir1.2-glib-2.01.64.1-1~ubuntu20.04.1
 gir1.2-packagekitglib-1.01.1.13-2ubuntu1.1
-git1:2.25.1-1ubuntu3.3
-git-man1:2.25.1-1ubuntu3.3
+git1:2.25.1-1ubuntu3.4
+git-man1:2.25.1-1ubuntu3.4
 glib-networking2.64.2-1ubuntu0.1
 glib-networking-common2.64.2-1ubuntu0.1
 glib-networking-services2.64.2-1ubuntu0.1
@@ -106,7 +106,7 @@ libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
 libcryptsetup122:2.2.2-3ubuntu2.4
 libcups22.3.1-9ubuntu1.1
-libcurl3-gnutls7.68.0-1ubuntu2.7
+libcurl3-gnutls7.68.0-1ubuntu2.10
 libcurl47.68.0-1ubuntu2.7
 libdatrie10.2.12-3
 libdb5.35.3.28+dfsg1-0.6ubuntu2
