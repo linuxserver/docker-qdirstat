@@ -4,6 +4,5 @@
 <item label="xterm" icon="/usr/share/pixmaps/xterm-color_48x48.xpm"><action name="Execute"><command>/usr/bin/xterm</command></action></item>
 <item label="XFCE Terminal" icon="/usr/share/icons/Humanity/apps/128/utilities-terminal.svg"><action name="Execute"><command>/usr/bin/xfce4-terminal</command></action></item>
 <item label="QDirStat" icon="/usr/share/icons/hicolor/scalable/apps/qdirstat.svg"><action name="Execute"><command>/bin/qdirstat</command></action></item>
-<item label="Reload OB"><action name="Reconfigure"/></item>
 </menu>
 </openbox_menu>
