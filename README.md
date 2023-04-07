@@ -261,7 +261,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **18.03.23:** - Rebase to KasmVNC base image.
+* **03.04.23:** - Rebase to KasmVNC base image. Deprecate armhf build as the new base does not support it.
 * **16.12.22:** - Rebase to Jammy.
 * **06.04.22:** - Add xfce terminal.
 * **13.01.22:** - Compile from source.
