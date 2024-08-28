@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntujammy
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntunoble
 
 # set version label
 ARG BUILD_DATE
@@ -51,6 +51,7 @@ RUN \
   sed -i \
     's/NLIMC/NLMC/g' \
     /etc/xdg/openbox/rc.xml && \
+  printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apt-get purge -y --autoremove \
     build-essential \
