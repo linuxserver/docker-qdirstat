@@ -128,7 +128,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/config:/config
+      - /path/to/qdirstat/config:/config
       - /path/to/data:/data
     ports:
       - 3000:3000
@@ -146,7 +146,7 @@ docker run -d \
   -e TZ=Etc/UTC \
   -p 3000:3000 \
   -p 3001:3001 \
-  -v /path/to/config:/config \
+  -v /path/to/qdirstat/config:/config \
   -v /path/to/data:/data \
   --restart unless-stopped \
   lscr.io/linuxserver/qdirstat:latest
@@ -327,6 +327,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **28.08.24:** - Rebase to noble.
 * **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.
 * **03.04.23:** - Rebase to KasmVNC base image. Deprecate armhf build as the new base does not support it.
 * **16.12.22:** - Rebase to Jammy.
