@@ -6,6 +6,7 @@ project_url: "https://github.com/shundhammer/qdirstat"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qdirstat-logo.png"
 project_blurb: "[QDirStat]({{ project_url }}) Qt-based directory statistics: KDirStat without any KDE -- from the author of the original KDirStat."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Storage"
 project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
