@@ -106,6 +106,7 @@ init_diagram: |
   "qdirstat:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "18.01.26:", desc: "Update build logic for Qt6 and version 2.0."}
   - {date: "28.12.25:", desc: "Add Wayland init logic."}
   - {date: "12.07.25:", desc: "Rebase to Selkies, HTTPS IS NOW REQUIRED."}
   - {date: "28.08.24:", desc: "Rebase to noble."}

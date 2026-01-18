@@ -21,12 +21,14 @@ RUN \
   apt-get update && \
   apt-get install -y --no-install-recommends \
     build-essential \
-    qtbase5-dev \
+    qt6-5compat-dev \
+    qt6-base-dev \
     zlib1g-dev && \
   echo "**** install runtime packages ****" && \
   apt-get install -y --no-install-recommends \
     git \
-    libqt5widgets5 \
+    libqt6widgets6t64 \
+    libqt6core5compat6 \
     liburi-perl \
     make \
     thunar \
@@ -44,7 +46,7 @@ RUN \
   tar xzf /tmp/qdirstat.tar.gz -C \
     /tmp/qdirstat/ --strip-components=1 && \
   cd /tmp/qdirstat && \
-  qmake && \
+  qmake6 && \
   make && \
   make install && \
   echo "**** openbox tweaks ****" && \
@@ -55,7 +57,8 @@ RUN \
   echo "**** cleanup ****" && \
   apt-get purge -y --autoremove \
     build-essential \
-    qtbase5-dev \
+    qt6-5compat-dev \
+    qt6-base-dev \
     zlib1g-dev && \
   apt-get clean && \
   rm -rf \
