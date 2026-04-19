@@ -642,6 +642,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **19.04.26:** - Rebase to resolute.
 * **04.04.26:** - Make Wayland default disable with PIXELFLUX_WAYLAND=false.
 * **18.01.26:** - Update build logic for Qt6 and version 2.0.
 * **28.12.25:** - Add Wayland init logic.
