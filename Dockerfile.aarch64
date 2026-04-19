@@ -29,7 +29,7 @@ RUN \
   echo "**** install runtime packages ****" && \
   apt-get install -y --no-install-recommends \
     git \
-    libqt6widgets6t64 \
+    libqt6widgets6 \
     libqt6core5compat6 \
     liburi-perl \
     make \
