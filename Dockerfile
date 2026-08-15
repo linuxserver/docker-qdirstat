@@ -40,7 +40,7 @@ RUN \
   mkdir -p /tmp/qdirstat && \
   if [ -z ${QDIRSTAT_VERSION+x} ]; then \
     QDIRSTAT_VERSION=$(curl -sX GET "https://api.github.com/repos/shundhammer/qdirstat/releases/latest" \
-      | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+      | jq -r '.tag_name'); \
   fi && \
   curl -o \
     /tmp/qdirstat.tar.gz -L \
